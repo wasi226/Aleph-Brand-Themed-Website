@@ -1,0 +1,855 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+#screen1{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-beauty-519-mcu-1400_a6cc296c-dfb9-49e6-b60d-9751d4ddb246_2560x.jpg?v=1668063737');
+    background-position: center;
+    background-size: cover;
+    padding: 1px 1px;
+    margin-bottom: 5px;
+}
+#navbr{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+    padding-right: 25px;
+}
+#subnav1{
+    display: flex;
+    gap: 30px;
+}
+#subnav3{
+    display: flex;
+    gap: 30px;
+}
+#subnav1 a{
+    text-decoration: none;
+    color: black;
+}
+#subnav3 a{
+    text-decoration: none;
+    color: black;
+}
+#writtenpt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+    color: white;
+}
+#wri{
+    font-size: 70px;
+    font-weight: 300;
+    word-spacing: -10px;
+}
+#writ{
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 20px;
+}
+#writt{
+    padding: 10px 25px;
+    margin-top: 15px;
+}
+#writt:hover{
+    background-color: black;
+    color: white;
+    border: black;
+}
+#subnav1 a:hover{
+    color: blue;
+}
+#subnav3 a:hover{
+    color: blue;
+}
+#screen2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px 0px;
+    margin-bottom: 5px;
+}
+#left{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-concealer-foundation-2-078.jpg?v=1660688939&width=2000');
+    background-position: center;
+    background-size: cover;
+}
+#right{
+    width: 50%;
+    height: 100%;
+    background-color: beige;
+}
+.ry{
+     font-size: 30px;
+}
+#right h1{
+    font-weight: 100;
+}
+#right i{
+    letter-spacing: -5px;
+}
+#r1{
+    padding-left: 50px;
+}
+#r2{
+    padding-left: 70px;
+}
+#r3{
+    margin-top: 40px;
+    margin-left: 250px;
+}
+#sentence{
+    padding: 0px 50px;
+    margin-top: 30px;
+    font-size: large;
+}
+.check1{
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    padding: 10px 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#check{
+    display: flex;
+}
+#check2{
+    display: flex;
+}
+#check3{
+    display: flex;
+}
+#check4{
+    display: flex;
+}
+#check5{
+    display: flex;
+}
+#button{
+    padding: 15px 40px;
+    border: none;
+    margin-left: 50px;
+}
+#button:hover{
+    background-color: black;
+    color: white;
+}
+#screen3{
+    width: 100%;
+    height: screen;
+    padding: 1px 1px;
+    margin-bottom: 5px;
+}
+#pic1{
+    width: 180px;
+    height: 200px;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/3.0_3435fef5-e084-4c79-8989-21cba4476cef.jpg?v=1666336086');
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+#pic2{
+    width: 170px;
+    height: 200px;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/chrissy-wears-aleph-concealer-foundation.jpg?v=1660693058');
+    background-position: center;
+    background-size: cover;
+    margin-top: 80px;
+}
+#sen{
+    padding: 0px 50px;
+}
+#sen h1{
+    font-size: 60px;
+    margin-top: 80px;
+    font-weight: 100;
+}
+#pic3{
+    width: 180px;
+    height: 200px;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/baksho-wears-aleph-concealer-foundation_021523e3-914b-4787-bd65-dfefb5a35ea6.jpg?v=1664949813');
+    background-position: center;
+    background-size: cover;
+}
+#pic2sen{
+    display: flex;
+    justify-content: space-evenly;
+}
+#sent{
+    width: 600px;
+    height: 200px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 0px 15px;
+    margin-left: 50px;
+}
+#button1{
+    padding: 15px 50px;
+    margin-top: 50px;
+    background-color: rgb(247, 238, 226);
+    border: solid rgb(247, 238, 226);
+}
+#button1:hover{
+    background-color: black;
+    color: white;
+    border: black;
+}
+#pic4{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/2.0_d1d761a5-7aee-4f78-bec2-8858d37e253c.jpg?v=1666338225');
+    background-size: cover;
+    background-position: center;
+}
+#pic5{
+    width: 150px;
+    height: 180px;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/joelle-wears-aleph-concealer-foundation-3.jpg?v=1660691679');
+    background-position: center;
+    background-size: cover;
+}
+#pic45{
+    display: flex;
+    justify-content: space-evenly;
+}
+#screen5{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+#small{
+    width: 100%;
+    height: 13%;
+    background-color: white;
+}
+#fe{
+    display: flex;
+}
+#small{
+    display: flex;
+    justify-content: space-between;
+}
+#butt1{
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+#butt1:hover{
+    background-color: black;
+    color: white;
+    border: black;
+}
+#subfe1 h1{
+    font-size: 55px;
+    font-weight: 100;
+}
+#subfe2 a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 30px;
+    color: black;
+    margin-left: 10px;
+}
+#subfe2 a:hover{
+    text-decoration: underline;
+    color: royalblue;
+}
+#subfe2{
+    margin-top: 23px;
+}
+#big{
+    width: 100%;
+    height: 87%;
+    display: flex;
+    justify-content: space-between;
+}
+#subbig1{
+    width: 33%;
+    height: 100%;
+    background-image: url('http://alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-gloria-6g-Jar_3200x3724px.png?v=1708135217&amp;width=1400');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+#fly{
+    width: 100%;
+    height: 13%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+#fly p{
+    color: white;
+}
+#subbig1:hover #fly{
+    bottom: 0;
+}
+#subbig2{
+    width: 33%;
+    height: 100%;
+    background-image: url('http://alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-6gJar_Emanate_update_3200x3724px.png?v=1691119781&amp;width=1400');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+#subbig2:hover #fly{
+    bottom: 0;
+}
+#subbig3{
+    width: 33%;
+    height: 100%;
+    background-image: url('http://alephbeauty.com/cdn/shop/products/aleph-cheek-lip-tint-6g-Jar_Grounded_3200x3724px.png?v=1663658337&amp;width=1400');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+#subbig3:hover #fly{
+    bottom: 0;
+}
+#bottom{
+    display: flex;
+    justify-content: space-between;
+}
+#bottomm p{
+    font-size: 17px;
+}
+#bottomm{
+    width: 100%;
+    height: 13%;
+    padding: 0px 20px;
+    padding-top: 10px;
+    margin-top: 440px;
+}
+#subbig1:hover{
+    background-image: url('https://alephbeauty.com/cdn/shop/files/Aleph_2024_Cheek-Lip-Tint-Gloria-campaign_637dfdd3-2ba1-4d74-a055-d9016e66ccc1.jpg?v=1708369173&width=1600');
+    background-position: center;
+    background-size: cover;
+}
+#subbig2:hover{
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-cheek-lip-tint-emanate-model_0831.jpg?v=1691119781&width=1600');
+    background-position: center;
+    background-size: cover;
+}
+#subbig3:hover{
+    background-image: url('https://alephbeauty.com/cdn/shop/files/Cheek_LipTintGrounded_1.jpg?v=1662675508&width=1600');
+    background-position: center;
+    background-size: cover;
+}
+#screen7{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+#half1{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+#half11{
+    width: 24.5%;
+    height: 100%;
+    margin-bottom: 1px;
+    padding: 0px 20px;
+}
+#half11 h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+#half12{
+    width: 24.5%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/alaria-esculenta-xr.jpg?v=1660707251&width=1200');
+    background-position: center;
+    background-size: cover;
+}
+#half13{
+    width: 24.5%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/sunflower-bw.jpg?v=1660707396&width=1200');
+    background-position: center;
+    background-size: cover;
+}
+#half14{
+    width: 24.5%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/gal-3.jpg?v=1653633508&width=1200');
+    background-size: cover;
+    background-position: center;
+}
+#half2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+#half21{
+    width: 24.5%;
+    height: 100%;
+}
+#half22{
+    width: 24.5%;
+    height: 100%;
+    padding: 20px 10px;
+}
+#half23{
+    width: 24.5%;
+    height: 100%;
+    padding: 20px 10px;
+}
+#half24{
+    width: 24.5%;
+    height: 100%;
+    padding: 20px 10px;
+}
+#buttonnnnn{
+    padding: 10px 25px;
+}
+#button6{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#buttonnnnn:hover{
+    background-color: black;
+    color: white;
+    border: black;
+}
+#screen8{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/ex-sus.jpg?v=1661851834');
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+#written8{
+    width: 60%;
+    height: 60%;
+    padding: 80px 50px;
+    font-size: 17px;
+    font-weight: 100;
+}
+#written8 h1{
+    font-weight: 100;
+}
+#button8{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px 20px;
+}
+#button8:hover{
+    background-color: black;
+    color: white;
+    border: black;
+}
+#screen9{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+#word9{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+#word9 h1{
+    font-weight: 100;
+}
+#img9{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#subimg92{
+    width: 33.3%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/amberly-star-182.jpg?v=1660708208');
+    background-position: center;
+    background-size: cover;
+}
+#subimg91{
+    width: 33.3%;
+    height: 100%;
+}
+#subimg93{
+    width: 33.3%;
+    height: 100%;
+}
+#subimg91 img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    margin-left: 250px;
+    position: absolute;
+    margin-top: 230px;
+}
+#subimg93 img{
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    margin-left: -140px;
+    position: absolute;
+    margin-top: 50px;
+}
+#wri9{
+    margin-top: 450px;
+    margin-left: 200px;
+}
+#wri9 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+#writt9{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 300px;
+    margin-left: 50px;
+}
+#button9{
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+#button9:hover{
+    background-color: black;
+    color: white;
+    border: black;
+}
+#screen10{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+#subsc1{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+#subsc1 h1{
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 50px;
+    margin-top: 70px;
+}
+#subsc2{
+    width: 100%;
+    height: 59%;
+    display: flex;
+    justify-content: space-between;
+}
+#fig1{
+    width: 16%;
+    height: 100%;
+    background-image: url(https://alephbeauty.com/cdn/shop/files/aleph-IG-009.jpg?v=1663218555);
+    background-position: center;
+    background-size: cover;
+}
+#fig2{
+    width: 16%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/Sakura-M-1x1.jpg?v=1660709844');
+    background-position: center;
+    background-size: cover;
+}
+#fig3{
+    width: 16%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-IG-006.jpg?v=1663218491');
+    background-size: cover;
+    background-position: center;
+}
+#fig4{
+    width: 16%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-IG-008.jpg?v=1663218531');
+    background-position: center;
+    background-size: cover;
+}
+#fig5{
+    width: 16%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/emma-aleph-beauty-1.jpg?v=1660709318');
+    background-position: center;
+    background-size: cover;
+}
+#fig6{
+    width: 16%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-IG-013.jpg?v=1663218474');
+    background-size: cover;
+    background-position: center;
+}
+#screen11{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+#left50{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(234, 231, 228);
+}
+#right50{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(214, 214, 201);
+    display: flex;
+}
+#new{
+    margin-top: 100px;
+    padding: 0px 50px;
+}
+#new h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+#eml{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    margin-top: 50px;
+}
+#pict{
+    width: 100%;
+    height: 25%;
+    padding: 0px 50px;
+}
+#pict1{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-icons_c1b2df52-1ab4-42c4-a6ab-7e0d2b7cdcea.png?v=1664953074');
+    background-position: center;
+    background-size: cover;
+}
+#home1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+#home1 a{
+    text-decoration: none;
+    color: black;
+}
+#home1 a:hover{
+    color: royalblue;
+}
+#home2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+#home2 a{
+    text-decoration: none;
+    color: black;
+}
+#home2 a:hover{
+    color: royalblue;
+}
+#home3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+#home3 a{
+    text-decoration: none;
+    color: black;
+}
+#home3 a:hover{
+    color: royalblue;
+}
+#botttoomm{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+#botttoomm a{
+    text-decoration: none;
+    color: black;
+}
+#botttoomm a:hover{
+    color: royalblue;
+}
+#screen6{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+}
+#small6{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#small6 h1{
+    font-size: 45px;
+    font-weight: 100;
+}
+#big6{
+    width: 100%;
+    height: 80%;
+    color: white;
+    display: flex;
+}
+#subbig61{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+#subbig62{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+#subbig63{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+#chota1{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    padding: 50px 30px;
+    line-height: 30px;
+}
+#chota2{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/michelle-review-1_large.jpg?v=1660705639');
+    background-size: cover;
+    background-position: center;
+}
+#chota3{
+    width: 50%;
+    height: 100%;
+    background-color: brown;
+    padding: 50px 30px;
+    line-height: 30px;
+}
+#chota4{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/Kylie-review-1_large.jpg?v=1660705861');
+    background-size: cover;
+    background-position: center;
+}
+#chota5{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(224, 182, 126);
+    padding: 50px 30px;
+    line-height: 30px;
+}
+#chota6{
+    width: 50%;
+    height: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/Jessica-G-review_large.jpg?v=1660705288');
+    background-size: cover;
+    background-position: center;
+}
+#subbig61 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    left: 12%;
+    top: 40%;
+}
+#subbig62 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    left: 12%;
+    top: 40%;
+}
+#subbig63 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    left: 12%;
+    top: 40%;
+}
+#screen4{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(249, 235, 217);
+    padding: 1px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+#likha{
+    width: 60%;
+    height: 40%;
+    text-align: center;
+    margin-top: 100px;
+}
+#logo{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+#logo a{
+    font-size: 12px;
+    color: rgb(77, 36, 36);
+    text-decoration: none;
+}
+#logo a:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+
+
+
